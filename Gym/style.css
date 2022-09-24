@@ -1,0 +1,90 @@
+.spad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-pic {
+    position: relative;
+}
+
+.about-pic img {
+    min-width: 100%;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.about-text {
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+div {
+    display: block;
+}
+
+.about-text h2 {
+    font-size: 40px;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.about-text p.first-para {
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    color: #6b6b6b;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #6b6b6b;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about-text p.second-para {
+    margin-bottom: 50px;
+}
+
+.primary-btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 12px;
+    color: #ffffff;
+    text-align: center;
+    width: 160px;
+    height: 46px;
+    border-left: 2px solid #eb3c5a;
+    border-right: 2px solid #f67831;
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831)), -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831)); */
+    background-image: -o-linear-gradient(left, #eb3c5a 0%, #f67831 100%), -o-linear-gradient(left, #eb3c5a 0%, #f67831 100%);
+    background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+    -webkit-transition-duration: 1000ms;
+    -o-transition-duration: 1000ms;
+    transition-duration: 1000ms;
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
+}
+
